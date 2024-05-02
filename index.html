@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <button id="device-button">Check My Device</button>
+    <p id="device-status"></p>
+
+    <script>
+      // Get the button and status element
+      const button = document.getElementById("device-button");
+      const status = document.getElementById("device-status");
+
+      // Add an event listener to the button
+      button.addEventListener("click", () => {
+        // When the button is clicked, change the text of the status element
+        status.textContent = "Your Device is On";
+      });
+    </script>
+  </body>
+</html>
