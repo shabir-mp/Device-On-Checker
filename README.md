@@ -12,6 +12,7 @@ Display the device status in a clear and concise manner
 
 Open the web application in a modern web browser.
 Click the "Check Device" button to check the status of the device.
+Click the "Check Web Open" button to Check the device can open web or not.
 The status of the device will be displayed in the "Device Status" element.
 
 ## Code Overview
